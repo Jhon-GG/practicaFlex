@@ -1,2 +1,1 @@
-# practicaFlex
-Practica de flex mara hacer cajas flexibles
+![](https://github.com/Jhon-GG/practicaModeladoEnCaja/blob/ejercicio_3/storage/img/ejercicio_3.png)
