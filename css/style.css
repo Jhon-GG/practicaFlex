@@ -30,8 +30,9 @@ body{
     height: 100px;
     width: 600px;
     background: #daf015;
-    font-family: Merriweather;
+    font-family: Josefin Sans;
     padding: 20px;
+    border-radius: 1%;
 }
 
 .Text{
@@ -40,4 +41,5 @@ body{
     background: #daf015;
     padding: 20px;
     font-size: 28px;
+    font-family: Josefin Sans;
 }
