@@ -1,23 +1,140 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .container{
-    border: 1px solid black;
-    height: 50px;
+    height: 1000px;
     display: flex;
-    flex-flow: row wrap; /* El primero es flex-direction y el segundo es flex-wrap */
     flex-direction: row;   
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
 }
 
 .box1{
+    padding: 20px;
+    flex-basis: 98%;
+    background: rgb(34, 216, 253);
     display: flex;
     justify-content: space-between;
+    align-items: start ;
     flex-direction: row;
+    border-radius: 3%;
+}
+
+.item{
+    padding: 10px;
+    font-size: 20px;
+    font-family: Noto Sans;
+}
+
+.but{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    background: rgb(255, 255, 255);
+    color: #000;
+    border-radius: 6%;
+    font-family: Noto Sans;
+}
+
+.but:hover{
+    background: rgba(153, 0, 255, 0.306);
+    transition: 1s;
+}
+
+.box2{
+    padding: 20px;
+    flex-basis: 98%;
+    background: rgb(34, 216, 253);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 3%;
+    margin-top: 10px;
+}
+
+.item2{
+    padding: 10px;
+    font-size: 20px;
+    font-family: Noto Sans;
+}
+
+.but2{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    background: rgb(255, 255, 255);
+    color: #000;
+    border-radius: 6%;
+    font-family: Noto Sans;
+}
+
+.but2:hover{
+    background: rgba(153, 0, 255, 0.306);
+    transition: 1s;
+}
+
+.box3{
+    padding: 20px;
+    flex-basis: 98%;
+    background: rgb(34, 216, 253);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 3%;
+    margin-top: 10px;
+}
+
+.item3{
+    padding: 10px;
+    font-size: 20px;
+    font-family: Noto Sans;
+}
+
+.but3{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    background: rgb(255, 255, 255);
+    color: #000;
+    border-radius: 6%;
+    font-family: Noto Sans;
+}
+
+.but3:hover{
+    background: rgba(153, 0, 255, 0.306);
+    transition: 1s;
+}
+
+.box4{
+    padding: 20px;
+    flex-basis: 98%;
+    background: rgb(34, 216, 253);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 3%;
+    margin-top: 10px;
+}
+
+.item4{
+    padding: 10px;
+    font-size: 20px;
+    font-family: Noto Sans;
+}
+
+.but4{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    background: rgb(255, 255, 255);
+    color: #000;
+    border-radius: 6%;
+    font-family: Noto Sans;
+}
+
+.but4:hover{
+    background: rgba(153, 0, 255, 0.306);
+    transition: 1s;
 }
