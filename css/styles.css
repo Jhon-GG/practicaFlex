@@ -28,6 +28,11 @@
     
 }
 
+.item{
+    color: black;
+    text-decoration: none;
+}
+
 .item:hover{
     text-decoration: underline;
     transition: 1.2s ;
