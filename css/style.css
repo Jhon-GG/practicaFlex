@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ffffff;
+    margin: 15px;
+}
+
+.container{
+    height: 550px;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.Title{
+    height: 100px;
+    width: 600px;
+    background: #daf015;
+    font-family: Merriweather;
+    padding: 20px;
+}
+
+.Text{
+    height: 200px;
+    width: 600px;
+    background: #daf015;
+    padding: 20px;
+    font-size: 28px;
+}
