@@ -3,3 +3,21 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container{
+    border: 1px solid black;
+    height: 50px;
+    display: flex;
+    flex-flow: row wrap; /* El primero es flex-direction y el segundo es flex-wrap */
+    flex-direction: row;   
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
