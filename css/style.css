@@ -5,7 +5,6 @@
 }
 
 .container{
-    border: 0.2vh solid black;
     display: flex;
     margin: 0;
     flex-direction: row;
@@ -15,11 +14,14 @@
 
 
 .imBox{
-    border: 1px solid blue;
-    width: 80%;
+    width: 100%;
+    margin-left: 20px;
 }
 
 .img{
-    margin: 20px ;
-    border-radius: 2vh;
+    margin: 10px ;
+    width: 350px;
+    height: auto;
+    border-radius: 0.5vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5 );
 }
