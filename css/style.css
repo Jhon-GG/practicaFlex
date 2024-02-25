@@ -3,3 +3,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container{
+    background: #93d9e9;
+    display: flex;
+    flex-direction: column;
+    width: 208.5vh;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    border: 1px solid red;
+    width: 50vh;
+    height: 480px;
+    border-radius: 1vh;
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); */
+}
+
+.titulo1{
+    background-color: salmon;
+    font-size: 10px;
+    font-family: Open Sans;
+}
