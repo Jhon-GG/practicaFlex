@@ -4,35 +4,34 @@
     flex-direction: column;   
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     align-content: flex-start;
 }
 
 .box1{
     padding: 20px;
     flex-basis: 20%;
-    background: rgb(34, 216, 253);
+    background: rgb(197, 197, 197);
     display: flex;
     justify-content: space-between;
-    align-items: start ;
+    align-items: center;
     flex-direction: row;
-    border-radius: 3%;
     width: 400px;
 }
 
 .item{
-    padding: 10px;
+    padding: 5px;
     font-size: 20px;
     font-family: Noto Sans;
 }
 
 .but{
+    margin: 5px ; 
     text-decoration: none;
-    padding: 10px;
+    align-items: center;
     font-size: 18px;
     background: rgb(255, 255, 255);
     color: #000;
-    border-radius: 6%;
     font-family: Noto Sans;
 }
 
@@ -44,14 +43,13 @@
 .box2{
     padding: 20px;
     flex-basis: 20%;
-    background: rgb(34, 216, 253);
+    background: rgb(197, 197, 197);
     display: flex;
     justify-content: space-between;
     align-items: start ;
     flex-direction: row;
-    border-radius: 3%;
     width: 400px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .item2{
@@ -61,12 +59,11 @@
 }
 
 .but2{
+    margin: 10px 5px 0 0 ;
     text-decoration: none;
-    padding: 10px;
     font-size: 18px;
     background: rgb(255, 255, 255);
     color: #000;
-    border-radius: 6%;
     font-family: Noto Sans;
 }
 
@@ -78,14 +75,13 @@
 .box3{
     padding: 20px;
     flex-basis: 20%;
-    background: rgb(34, 216, 253);
+    background: rgb(197, 197, 197);
     display: flex;
     justify-content: space-between;
     align-items: start ;
     flex-direction: row;
-    border-radius: 3%;
     width: 400px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .item3{
@@ -95,12 +91,11 @@
 }
 
 .but3{
+    margin: 5px ;
     text-decoration: none;
-    padding: 10px;
     font-size: 18px;
     background: rgb(255, 255, 255);
     color: #000;
-    border-radius: 6%;
     font-family: Noto Sans;
 }
 
@@ -112,14 +107,13 @@
 .box4{
     padding: 20px;
     flex-basis: 20%;
-    background: rgb(34, 216, 253);
+    background: rgb(197, 197, 197);
     display: flex;
     justify-content: space-between;
     align-items: start ;
     flex-direction: row;
-    border-radius: 3%;
     width: 400px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .item4{
@@ -129,12 +123,11 @@
 }
 
 .but4{
+    margin: 5px ; 
     text-decoration: none;
-    padding: 10px;
     font-size: 18px;
     background: rgb(255, 255, 255);
     color: #000;
-    border-radius: 6%;
     font-family: Noto Sans;
 }
 
