@@ -3,3 +3,39 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 1px solid blue;
+    display: flex;
+    max-width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background: rgb(251, 123, 123);
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 20vh;
+}
+
+.header h1{
+    font-family: Open Sans;
+    font-size: 4vh;
+    color: #fff;
+}
+
+.header p{
+    font-family: Open Sans;
+    font-size: 2vh;
+    color: #fff;
+}
