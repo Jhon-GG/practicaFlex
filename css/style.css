@@ -13,21 +13,21 @@
 }
 
 .box1{
+    border: 2px solid green;
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 .aside{
-    border: 1px solid blue;
     display: flex;
     flex-direction: column;
     max-width: 40%;
-    width: 750px;
+    width: 385px;
     height: 100vh;
 }
 
 .title{
-    border: 1px solid rgb(0, 255, 187);
     display: flex;
     flex-direction: row;
     max-width: 100%;
@@ -53,7 +53,6 @@
 }
 
 .dashboard{
-    border: 1px solid rgb(0, 255, 187);
     display: flex;
     flex-direction: row;
     width: 250px;
@@ -393,4 +392,55 @@
     background: #dddddd8d;
     cursor: pointer;
     color: #000;
+}
+
+.Principal{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+}
+
+.header img{
+    margin-left: 12px;
+    margin-right: 20px;
+}
+
+.fondo{
+    background: #f4f4f4;
+    height: 100vh;
+}
+
+.Title2{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.Title2 h1{
+    color: #000;
+    font-size: 25px;
+}
+
+.texto{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.home{
+    color: #ff8800;
+}
+
+.text{
+    margin-left: 8px;
+    color: #949494;
 }
