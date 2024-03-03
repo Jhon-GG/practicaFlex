@@ -12,12 +12,17 @@
     height: 100vh;
 }
 
+.box1{
+    display: flex;
+    flex-direction: row;
+}
+
 .aside{
     border: 1px solid blue;
     display: flex;
     flex-direction: column;
     max-width: 40%;
-    width: 650px;
+    width: 750px;
     height: 100vh;
 }
 
@@ -44,5 +49,348 @@
     font-size: 20px;
     align-items: center;
     margin-left: 5px;
+    color: #ff8800;
 }
 
+.dashboard{
+    border: 1px solid rgb(0, 255, 187);
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 40px;
+    flex-grow:0.001;
+    align-items: center;
+    margin-top: 30px;
+    padding: 0px;
+    margin-left: 24px;
+    background: #ff8800;
+    border-radius: 1.8vh;
+    color: #fff;
+}
+
+.dashboard img{
+    display: flex;
+    width: 22px;
+    height: auto;
+    align-items: center;
+    margin: 25px;
+    justify-content: center;
+}
+
+.dashboard h1{
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+}
+
+.dashboard:hover{
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: 35px;
+}
+
+.main p{
+    color: rgb(121, 121, 121);
+}
+
+
+.elements{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 40px;
+    flex-grow:0.001;
+    align-items: center;
+    margin-top: 18px;
+    padding: 0px;
+    margin-left: 24px;
+    background: #ffffff;
+    border-radius: 1.8vh;
+}
+
+.elements img{
+    display: flex;
+    width: 15px;
+    height: auto;
+    align-items: center;
+    margin: 25px;
+    justify-content: center;
+}
+
+.elements a{
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #000;
+}
+
+.flecha1{
+    display: flex;
+    margin-right: 5px;
+    width: 3000px;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: auto;
+    color: #000000;
+}
+
+.flecha1:hover{
+    color: #949494;
+}
+
+.elements:hover{
+    background: #dddddd8d;
+    cursor: pointer;
+    color: #000;
+}
+
+.charts{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 40px;
+    flex-grow:0.001;
+    align-items: center;
+    margin-top: 18px;
+    padding: 0px;
+    margin-left: 24px;
+    background: #ffffff;
+    border-radius: 1.8vh;
+}
+
+.charts img{
+    display: flex;
+    width: 15px;
+    height: auto;
+    align-items: center;
+    margin: 25px;
+    justify-content: center;
+}
+
+.charts a{
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #000;
+}
+
+.flecha2{
+    display: flex;
+    margin-right: 5px;
+    width: 3000px;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: auto;
+    color: #000000;
+}
+
+.flecha2:hover{
+    color: #949494;
+}
+
+.charts:hover{
+    background: #dddddd8d;
+    cursor: pointer;
+    color: #000;
+}
+
+.widgets{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 40px;
+    flex-grow:0.001;
+    align-items: center;
+    margin-top: 18px;
+    padding: 0px;
+    margin-left: 24px;
+    background: #ffffff;
+    border-radius: 1.8vh;
+}
+
+.widgets img{
+    display: flex;
+    width: 15px;
+    height: auto;
+    align-items: center;
+    margin: 25px;
+    justify-content: center;
+}
+
+.widgets a{
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #000;
+}
+
+.widgets2{
+    display: flex;
+    margin-right: 5px;
+    width: 3000px;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: auto;
+    color: #000000;
+}
+
+.flecha3{
+    display: flex;
+    margin-right: 5px;
+    width: 3000px;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: auto;
+    color: #000000;
+}
+
+.flecha3:hover{
+    color: #949494;
+}
+
+.widgets:hover{
+    background: #dddddd8d;
+    cursor: pointer;
+    color: #000;
+}
+
+.table{
+    display: flex;
+    width: 100%;
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: 35px;
+}
+
+.table p{
+    color: rgb(121, 121, 121);
+}
+
+.Tables{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 40px;
+    flex-grow:0.001;
+    align-items: center;
+    margin-top: 18px;
+    padding: 0px;
+    margin-left: 24px;
+    background: #ffffff;
+    border-radius: 1.8vh;
+}
+
+.Tables img{
+    display: flex;
+    width: 15px;
+    height: auto;
+    align-items: center;
+    margin: 25px;
+    justify-content: center;
+}
+
+.Tables a{
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #000;
+}
+
+.flecha4{
+    display: flex;
+    margin-right: 5px;
+    width: 3000px;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: auto;
+    color: #000000;
+}
+
+.flecha4:hover{
+    color: #949494;
+}
+
+.Tables:hover{
+    background: #dddddd8d;
+    cursor: pointer;
+    color: #000;
+}
+
+.Forms{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 40px;
+    flex-grow:0.001;
+    align-items: center;
+    margin-top: 18px;
+    padding: 0px;
+    margin-left: 24px;
+    background: #ffffff;
+    border-radius: 1.8vh;
+}
+
+.Forms img{
+    display: flex;
+    width: 15px;
+    height: auto;
+    align-items: center;
+    margin: 25px;
+    justify-content: center;
+}
+
+.Forms a{
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #000;
+}
+
+.flecha5{
+    display: flex;
+    margin-right: 5px;
+    width: 3000px;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: auto;
+    color: #000000;
+}
+
+.flecha5:hover{
+    color: #949494;
+}
+
+.Forms:hover{
+    background: #dddddd8d;
+    cursor: pointer;
+    color: #000;
+}
