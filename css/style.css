@@ -444,3 +444,168 @@
     margin-left: 8px;
     color: #949494;
 }
+
+.cajas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.uno{
+    display: flex;
+    border-radius: 1vh;
+    width: 200px;
+    flex-direction: column;
+    background: #d8a569;
+}
+
+.titulito{
+    display: flex;
+    flex-direction: row;
+}
+
+.titulito img{
+    margin-top: 10px;
+    margin-left: 110px;
+    width: 22px;
+    height: 24px;
+}
+.barra{
+    width: 180px;
+    height: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin: 0 auto 10px auto;
+}
+
+.lleno1{
+    height: 10px;
+    background-color: #ff8800;
+    border-radius: 5px;
+}
+
+.solo1{
+    width: 40%;
+}
+
+.uno h1{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.uno p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.dos{
+    display: flex;
+    border-radius: 1vh;
+    width: 200px;
+    flex-direction: column;
+    background: #d8a569;
+}
+
+.dos h1{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.dos p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.solo2{
+    width: 60%;
+}
+
+.titulito2{
+    display: flex;
+    flex-direction: row;
+}
+
+.titulito2 img{
+    margin-top: 10px;
+    margin-left: 120px;
+    width: 22px;
+    height: 24px;
+}
+
+.tres{
+    display: flex;
+    border-radius: 1vh;
+    flex-direction: column;
+    width: 200px;
+    background: #d8a569;
+}
+
+.tres h1{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.tres p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.solo3{
+    width: 30%;
+}
+
+.titulito3{
+    display: flex;
+    flex-direction: row;
+}
+
+.titulito3 img{
+    margin-top: 10px;
+    margin-left: 120px;
+    width: 22px;
+    height: 24px;
+}
+
+.cuatro{
+    display: flex;
+    border-radius: 1vh;
+    width: 200px;   
+    flex-direction: column;
+    background: #d8a569;
+}
+
+.cuatro h1{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.cuatro p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.solo4{
+    width: 80%;
+}
+
+.titulito4{
+    display: flex;
+    flex-direction: row;
+}
+
+.titulito4 img{
+    margin-top: 10px;
+    margin-left: 120px;
+    width: 22px;
+    height: 24px;
+}
